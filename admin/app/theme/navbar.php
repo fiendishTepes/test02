@@ -27,7 +27,7 @@
                                         <a href="?url=member/register">เพิ่มสมาชิก</a>
                                     </li>
                                     <li>
-                                        <a href="#">จัดการสมาชิก</a>
+                                        <a href="?url=member/manager">จัดการสมาชิก</a>
                                     </li>
                                     <li>
                                         <a href="#">เพิ่มสมาชิก</a>

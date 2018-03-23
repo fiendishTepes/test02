@@ -1,5 +1,5 @@
-<div class="container center-block">
-    <div class="col-lg-8">
+<div class="row">
+    <div class="col-lg-6">
         <form method="post">
             <div class="form-group ">
                 <label>ชื่อ</label>

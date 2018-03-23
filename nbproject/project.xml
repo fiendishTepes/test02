@@ -5,5 +5,11 @@
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
             <name>TEST02</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>ฒะพ</word>
+            <word>รายละเอ</word>
+            <word>ลบ</word>
+            <word>ไข</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
