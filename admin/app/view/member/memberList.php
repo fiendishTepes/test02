@@ -8,8 +8,8 @@
             <td width='15px'>ลบ</td>
         </tr>
         <tr class="text-center">
-            <td><?php  ?></td>
-            <td><?php  ?></td>
+            <td><?php echo +$n;  ?></td>
+            <td><?php echo $arr->memberFName;  ?></td>
             <td><input class="btn btn-info" type="button" value="รายละเอียด" name="<?php  ?>" id="<?php  ?>"></td>
             <td><input class="btn btn-info" type="button" value="แก้ไข" name="<?php  ?>" id="<?php  ?>"></td>
             <td><input class="btn btn-danger" type="button" value="ลบ" name="<?php  ?>" id="<?php  ?>"></td>

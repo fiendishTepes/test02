@@ -27,10 +27,10 @@
                                         <a href="?url=member/register">เพิ่มสมาชิก</a>
                                     </li>
                                     <li>
-                                        <a href="#">จัดการสมาชิก</a>
+                                        <a href="?url=member/memberlist">จัดการสมาชิก</a>
                                     </li>
                                     <li>
-                                        <a href="#">เพิ่มสมาชิก</a>
+                                        <a href="?url=member/memberlogs">ประวัติการใช้งาน</a>
                                     </li>
                                 </ul>
                             </li>

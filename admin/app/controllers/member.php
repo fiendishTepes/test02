@@ -1,5 +1,5 @@
 <?php
-class member extends controller  
+class member extends controller
 {
 
     public function memberInterface()
@@ -17,4 +17,19 @@ class member extends controller
         }
         
     }
+    public function memberList()
+    {
+        $this->view('member/memberList');
+        $rs = $this->model('memberList');
+        $arr = $rs->memberShows();
+        
+        
+        
+    }
+    
+    public function memberLogs()
+    {
+        echo 'LOGS';
+    }
+    
 }
