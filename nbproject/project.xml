@@ -3,13 +3,7 @@
     <type>org.netbeans.modules.php.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
-            <name>TEST02</name>
+            <name>OG</name>
         </data>
-        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
-            <word>ฒะพ</word>
-            <word>รายละเอ</word>
-            <word>ลบ</word>
-            <word>ไข</word>
-        </spellchecker-wordlist>
     </configuration>
 </project>

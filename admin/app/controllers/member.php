@@ -17,9 +17,4 @@ class member extends controller
         }
         
     }
-    
-    public function manager()
-    {
-        $this->view('member/memberList');
-    }
 }
