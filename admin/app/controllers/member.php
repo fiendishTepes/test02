@@ -19,9 +19,9 @@ class member extends controller
     }
     public function memberList()
     {
-        $this->view('member/memberList');
         $rs = $this->model('memberList');
         $arr = $rs->memberShows();
+        $this->view('member/memberList',$arr);
         
         
         

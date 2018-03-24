@@ -16,3 +16,4 @@
         </tr>
     </table>
 </div>
+<?php var_dump($arr); ?>
