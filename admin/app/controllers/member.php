@@ -20,7 +20,7 @@ class member extends controller
     public function memberList()
     {
         $rs = $this->model('memberList');
-        $arr = $rs->memberShows();
+        $arr = $rs->memberShows()->fetch_object();
         $this->view('member/memberList',$arr);
         
         
