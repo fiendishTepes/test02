@@ -5,6 +5,7 @@
         <group>
             <file>file:/C:/AppServ/www/test02/admin/app/core/App.php</file>
             <file>file:/C:/AppServ/www/test02/admin/app/models/memberList.php</file>
+            <file>file:/C:/AppServ/www/test02/test/input.php</file>
             <file>file:/C:/AppServ/www/test02/admin/app/view/member/form.php</file>
             <file>file:/C:/AppServ/www/test02/admin/app/controllers/member.php</file>
             <file>file:/C:/AppServ/www/test02/admin/app/view/member/memberList.php</file>

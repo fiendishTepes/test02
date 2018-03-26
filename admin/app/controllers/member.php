@@ -20,7 +20,15 @@ class member extends controller
     public function memberList()
     {
         $rs = $this->model('memberList');
-        $arr = $rs->memberShows()->fetch_object();
+        $result = $rs->memberShows();
+        $arr = $result->fetch_object();
+
+        while($arr)
+        {
+            echo $arr->memberFName;
+            echo '<br>';
+        }
+
         $this->view('member/memberList',$arr);
         
         
@@ -30,6 +38,11 @@ class member extends controller
     public function memberLogs()
     {
         echo 'LOGS';
+    }
+
+    public function test()
+    {
+        
     }
     
 }

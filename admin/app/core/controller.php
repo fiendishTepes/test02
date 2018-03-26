@@ -10,6 +10,7 @@ class controller
     public function view($view, $data = [])
     {
         include ROOT.'/admin/app/view/'.$view.'.php';
+        //var_dump($data);
     }
 }
 

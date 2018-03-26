@@ -9,11 +9,14 @@
         </tr>
         <tr class="text-center">
             <td><?php echo +$n;  ?></td>
-            <td><?php echo $arr->memberFName;  ?></td>
+            <td><?php echo $data->memberFName;  ?></td>
             <td><input class="btn btn-info" type="button" value="รายละเอียด" name="<?php  ?>" id="<?php  ?>"></td>
             <td><input class="btn btn-info" type="button" value="แก้ไข" name="<?php  ?>" id="<?php  ?>"></td>
             <td><input class="btn btn-danger" type="button" value="ลบ" name="<?php  ?>" id="<?php  ?>"></td>
         </tr>
     </table>
 </div>
-<?php var_dump($arr); ?>
+
+<?php 
+    
+?>
