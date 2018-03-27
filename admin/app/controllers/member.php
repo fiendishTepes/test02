@@ -21,18 +21,7 @@ class member extends controller
     {
         $rs = $this->model('memberList');
         $result = $rs->memberShows();
-        $arr = $result->fetch_object();
-
-        while($arr)
-        {
-            echo $arr->memberFName;
-            echo '<br>';
-        }
-
-        $this->view('member/memberList',$arr);
-        
-        
-        
+        $this->view('member/memberList',$result);   
     }
     
     public function memberLogs()
