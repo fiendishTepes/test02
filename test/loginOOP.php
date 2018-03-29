@@ -4,6 +4,7 @@ class login
 	protected $user = '';
 	protected $pass = '';
 	protected $conf = '';
+	protected $times = '';
 
 	public function __construct()
 	{
@@ -30,12 +31,32 @@ class login
 
 			if($rs->num_rows > 0)
 			{
-				echo 'Login Complete...';
-				header("Location: http://www.google.com");
+				$sql = "SELECT * FROM tbl_member 
+				WHERE 
+				memUser = '{$this->user}' AND memPass = '{$this->pass}' ";
+				$arr = $rs->fetch_object();
+				echo '<font color=green>Login Complete...</font>';
+				$_SESSION['memUser'] = $arr->memUser ;
+				$_SESSION['memClass'] = $arr->memClass;
+				$_SESSION['login'] = 'on';
+				$_SESSION['time'] = time();
 			}else
 			{
-				echo 'Login Failll...';
+				echo '<font color=red>Login Fail...</font>';
 			}
+		}
+	}
+
+	public function timeOut()
+	{
+		if($_SESSION['time'] + 1*60 < time())
+		{
+			session_destroy();
+			echo 'time out = '.$_SESSION['time'];
+			header("Location: login.php");
+		}else
+		{
+			echo 'else = '.$_SESSION['time'];
 		}
 	}
 }
