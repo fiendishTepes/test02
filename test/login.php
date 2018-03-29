@@ -23,7 +23,7 @@
 	</div>
 </form>
 <?php endif;?>
-<?php if(@$_SESSION['login'] == 'on'): $obj->timeOut(); ?>
+<?php if(@$_SESSION['login'] == 'on'): ?>
 <br><a href="?r=logout">Logout</a>
 <?php 
 	if($_GET['r'] == 'logout')

@@ -47,17 +47,6 @@ class login
 		}
 	}
 
-	public function timeOut()
-	{
-		if($_SESSION['time'] + 1*60 < time())
-		{
-			session_destroy();
-			echo 'time out = '.$_SESSION['time'];
-			header("Location: login.php");
-		}else
-		{
-			echo 'else = '.$_SESSION['time'];
-		}
-	}
+	
 }
 ?>
